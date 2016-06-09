@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HP</Machine>
+    <WindowsUser>CLYDE DSOUZA</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9f50966c-bf47-44b1-ac07-8a91fcac4874</PackageIdentityName>
+    <IntermediateOutputPath>F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\KiwiSports.exe">
+      <PackagePath>KiwiSports.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\packages\Microsoft.ApplicationInsights.1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
+      <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\packages\Microsoft.ApplicationInsights.WindowsApps.1.0.0\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\packages\Microsoft.ApplicationInsights.PersistenceChannel.1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.PersistenceChannel.dll">
+      <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\packages\Newtonsoft.Json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\AllBlacksLogo.jpg">
+      <PackagePath>Assets\AllBlacksLogo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\AllBlacksLogoSquare.jpg">
+      <PackagePath>Assets\AllBlacksLogoSquare.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\AllBlacksTile.jpg">
+      <PackagePath>Assets\AllBlacksTile.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\AppBackground.jpg">
+      <PackagePath>Assets\AppBackground.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\BlackCapsLogo.jpg">
+      <PackagePath>Assets\BlackCapsLogo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\BlackCapsLogoSquare.jpg">
+      <PackagePath>Assets\BlackCapsLogoSquare.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\BlackCapsTile.jpg">
+      <PackagePath>Assets\BlackCapsTile.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Cricket1.jpg">
+      <PackagePath>Assets\Cricket1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Cricket2.jpg">
+      <PackagePath>Assets\Cricket2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Cricket3.jpg">
+      <PackagePath>Assets\Cricket3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Cricket4.jpg">
+      <PackagePath>Assets\Cricket4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Cricket5.jpg">
+      <PackagePath>Assets\Cricket5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Netball1.jpg">
+      <PackagePath>Assets\Netball1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Netball2.jpg">
+      <PackagePath>Assets\Netball2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Netball3.jpg">
+      <PackagePath>Assets\Netball3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Netball4.jpg">
+      <PackagePath>Assets\Netball4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Rugby1.jpg">
+      <PackagePath>Assets\Rugby1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Rugby2.jpg">
+      <PackagePath>Assets\Rugby2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Rugby3.jpg">
+      <PackagePath>Assets\Rugby3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Rugby4.jpg">
+      <PackagePath>Assets\Rugby4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Rugby5.jpg">
+      <PackagePath>Assets\Rugby5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\SilverFernsLogo.jpg">
+      <PackagePath>Assets\SilverFernsLogo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\SilverFernsLogoSquare.jpg">
+      <PackagePath>Assets\SilverFernsLogoSquare.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\SilverFernsTile.jpg">
+      <PackagePath>Assets\SilverFernsTile.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store150x150.jpg">
+      <PackagePath>Assets\Store150x150.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Badge24x24.png">
+      <PackagePath>Assets\Badge24x24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Badge33x33.png">
+      <PackagePath>Assets\Badge33x33.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Badge93x93.png">
+      <PackagePath>Assets\Badge93x93.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\KiwiSportsDarkLogo.png">
+      <PackagePath>Assets\KiwiSportsDarkLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\KiwiSportsWhiteLogo.png">
+      <PackagePath>Assets\KiwiSportsWhiteLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Splash100.scale-100.png">
+      <PackagePath>Assets\Splash100.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Splash100.scale-140.png">
+      <PackagePath>Assets\Splash100.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Splash100.scale-180.png">
+      <PackagePath>Assets\Splash100.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Splash140.png">
+      <PackagePath>Assets\Splash140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Splash180.png">
+      <PackagePath>Assets\Splash180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Square120x120.png">
+      <PackagePath>Assets\Square120x120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Square126x126.png">
+      <PackagePath>Assets\Square126x126.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Square210x210.png">
+      <PackagePath>Assets\Square210x210.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Square270x270.png">
+      <PackagePath>Assets\Square270x270.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Square56x56.png">
+      <PackagePath>Assets\Square56x56.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Square98x98.png">
+      <PackagePath>Assets\Square98x98.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store150x150.scale-100.png">
+      <PackagePath>Assets\Store150x150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store150x150.scale-140.png">
+      <PackagePath>Assets\Store150x150.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store150x150.scale-180.png">
+      <PackagePath>Assets\Store150x150.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store150x150.scale-80.png">
+      <PackagePath>Assets\Store150x150.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store248x248.png">
+      <PackagePath>Assets\Store248x248.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.scale-100.png">
+      <PackagePath>Assets\Store30x30.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.scale-140.png">
+      <PackagePath>Assets\Store30x30.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.scale-180.png">
+      <PackagePath>Assets\Store30x30.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.scale-80.png">
+      <PackagePath>Assets\Store30x30.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.targetsize-16.png">
+      <PackagePath>Assets\Store30x30.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.targetsize-256.png">
+      <PackagePath>Assets\Store30x30.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.targetsize-32.png">
+      <PackagePath>Assets\Store30x30.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.targetsize-48.png">
+      <PackagePath>Assets\Store30x30.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store310x310.scale-100.png">
+      <PackagePath>Assets\Store310x310.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store310x310.scale-140.png">
+      <PackagePath>Assets\Store310x310.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store310x310.scale-180.png">
+      <PackagePath>Assets\Store310x310.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store310x310.scale-80.png">
+      <PackagePath>Assets\Store310x310.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store434x434.png">
+      <PackagePath>Assets\Store434x434.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store448x448.png">
+      <PackagePath>Assets\Store448x448.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store50.scale-100.png">
+      <PackagePath>Assets\Store50.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store50.scale-140.png">
+      <PackagePath>Assets\Store50.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store50.scale-180.png">
+      <PackagePath>Assets\Store50.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store558x558.png">
+      <PackagePath>Assets\Store558x558.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store70.scale-100.png">
+      <PackagePath>Assets\Store70.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store70.scale-140.png">
+      <PackagePath>Assets\Store70.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store70.scale-180.png">
+      <PackagePath>Assets\Store70.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store70.scale-80.png">
+      <PackagePath>Assets\Store70.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store90.png">
+      <PackagePath>Assets\Store90.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target16x16.png">
+      <PackagePath>Assets\Target16x16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target24x24.png">
+      <PackagePath>Assets\Target24x24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target256x256.png">
+      <PackagePath>Assets\Target256x256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target32x32.png">
+      <PackagePath>Assets\Target32x32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target42x42.png">
+      <PackagePath>Assets\Target42x42.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target48x48.png">
+      <PackagePath>Assets\Target48x48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target54x54.png">
+      <PackagePath>Assets\Target54x54.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Wide248x120.png">
+      <PackagePath>Assets\Wide248x120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Wide434x210.png">
+      <PackagePath>Assets\Wide434x210.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Wide558x270.png">
+      <PackagePath>Assets\Wide558x270.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\WideLogo310x150.scale-100.png">
+      <PackagePath>Assets\WideLogo310x150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\WideLogo310x150.scale-140.png">
+      <PackagePath>Assets\WideLogo310x150.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\WideLogo310x150.scale-180.png">
+      <PackagePath>Assets\WideLogo310x150.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\WideLogo310x150.scale-80.png">
+      <PackagePath>Assets\WideLogo310x150.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\DataModel\KiwiSports.json">
+      <PackagePath>DataModel\KiwiSports.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\KiwiSports.xr.xml">
+      <PackagePath>KiwiSports.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\Categories.xbf">
+      <PackagePath>Categories.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\Common\StyleDictionary.xbf">
+      <PackagePath>Common\StyleDictionary.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\ImageDetail.xbf">
+      <PackagePath>ImageDetail.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\ImageMaster.xbf">
+      <PackagePath>ImageMaster.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\ItemsPage.xbf">
+      <PackagePath>ItemsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\KiwiSportsSettingsFlyout.xbf">
+      <PackagePath>KiwiSportsSettingsFlyout.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\Lost.xbf">
+      <PackagePath>Lost.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\NewsDetail.xbf">
+      <PackagePath>NewsDetail.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\NewsMaster.xbf">
+      <PackagePath>NewsMaster.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\VideoDetail.xbf">
+      <PackagePath>VideoDetail.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\VideoMaster.xbf">
+      <PackagePath>VideoMaster.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\Wiki.xbf">
+      <PackagePath>Wiki.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

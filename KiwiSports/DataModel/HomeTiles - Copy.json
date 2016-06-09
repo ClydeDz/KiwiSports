@@ -1,0 +1,82 @@
+﻿{"Groups":[
+  {
+    "UniqueId": "ALL-BLACKS",
+    "Title": "All Blacks",
+    "Subtitle": "https://en.wikipedia.org/wiki/New_Zealand_national_rugby_union_team",
+    "ImagePath": "https://pbs.twimg.com/profile_images/640739782146945024/9VIjkGej.jpg",
+    "Description" : "The New Zealand national men's rugby union team, officially nicknamed the All Blacks, represents New Zealand in men's rugby union, which is regarded as the country's national sport. The All Blacks are the holders of the Rugby World Cup and are the 2014 World Rugby Team of the Year. They have won over 76% of their Test matches and are the leading Test match points scorers of all time. They are the only international side with a winning record against every country they have played, and since their international debut in 1903 only five nations have defeated New Zealand in Test matches.Since the introduction of the World Rugby Rankings in October 2003, New Zealand has held number one ranking longer than all other teams combined.\n\n New Zealand compete with Argentina, Australia and South Africa in The Rugby Championship – known as the Tri Nations before Argentina's entry in 2012. The All Blacks have won the trophy thirteen times in the competition's nineteen-year history. They also hold the Bledisloe Cup, which is contested annually with Australia, and the Freedom Cup, contested annually with South Africa. New Zealand have achieved a Grand Slam (defeating England, Ireland, Scotland, and Wales in one tour) four times – 1978, 2005, 2008 and 2010. They have also been named the World Rugby Team of the Year seven times since 2005.\n\nFour members have won the World Rugby Player of the Year award – current captain Richie McCaw, Dan Carter, Kieran Read, and Brodie Retallick. Fifteen former All Blacks have been inducted into the International Rugby Hall of Fame; four of these are also inductees of the World Rugby Hall of Fame. The team's first match was in 1884, and their first international match in 1903 against Australia in Sydney. The following year they hosted their first ever home Test, a match against a British Isles side in Wellington. This was followed by a tour of Europe and North America in 1905 where the team suffered their first Test defeat – to Wales in Cardiff.\n\nNew Zealand's early uniforms consisted of a black jersey with a silver fern and white knickerbockers. By the 1905 tour, they were wearing all black, except for the silver fern, and their name All Blacks dates from this time. The team perform a haka – a Māori challenge or posture dance – before each match. The haka performed has traditionally been Te Rauparaha's Ka Mate, although since 2005 Kapa o Pango – a modified version of the 1924 All Blacks haka, Kia Whaka-ngawari – has occasionally been performed.",
+    "Items":
+    [
+      {
+        "UniqueId": "Group-1-Item-1",
+        "Title": "All Blacks",
+        "Subtitle": "Item Subtitle: 1",
+        "ImagePath": "Assets/LightGray.png",
+        "Description" : "",
+        "Description" : "",
+        "Content" : ""
+      },
+      {
+        "UniqueId": "Group-1-Item-2",
+        "Title": "Item Title: 2,
+        "Subtitle": "Item Subtitle: 2",
+        "ImagePath": "Assets/MediumGray.png",
+        "Description" : "",
+        "Content" : ""
+      }
+    ]
+  },
+  {
+    "UniqueId": "SILVER-FERNS",
+    "Title": "Silver Ferns",
+    "Subtitle": "https://en.wikipedia.org/wiki/New_Zealand_national_netball_team",
+    "ImagePath": "https://pbs.twimg.com/profile_images/378800000463659498/c50c31627b8350251f4edc1d7dbb010f.jpeg",
+    "Description" : "The New Zealand national netball team, commonly known as the Silver Ferns, represents New Zealand in international netball. The team take their nickname from the Silver Tree Fern (Cyathea dealbata), which is an iconic emblem for many New Zealand sports teams. The Silver Ferns were formed in 1938 as a representative New Zealand team to tour Australia.\n\nTill date, they have been one of the most dominant national netball teams in the world, along with the Australian Diamonds, and have a winning record against most other netball nations. At the end of the 2011 international netball season, the Silver Ferns were ranked second in the IFNA World Rankings. The Silver Ferns compete annually for the Constellation Cup a home-and-away test series with Australia, and also play test matches with other major netball countries, including England and Jamaica, on a regular basis. They have competed at every World Netball Championship since its inauguration in 1963, and in every Commonwealth Games since netball's inclusion in 1998.\n\nThe Silver Ferns have won the World Netball Championships four times (in 1967, 1979, 1987 and 2003). They also won the netball title at the Commonwealth Games in 2006 and 2010. The Silver Ferns are administered by Netball New Zealand, the national governing body for netball in the country. Silver Ferns players are usually selected from New Zealand ANZ Championship franchises. Waimarama Taumaunu is the current head coach after former coach Ruth Aitken retired in 2011.",
+    "Items":
+    [
+      {
+        "UniqueId": "Group-2-Item-1",
+        "Title": "Item Title: 1",
+        "Subtitle": "Item Subtitle: 1",
+        "ImagePath": "Assets/DarkGray.png",
+        "Description" : "",
+        "Content" : ""
+      },
+      {
+        "UniqueId": "Group-2-Item-2",
+        "Title": "Item Title: 2",
+        "Subtitle": "Item Subtitle: 2",
+        "ImagePath": "Assets/LightGray.png",
+        "Description" : "",
+        "Content" : ""
+      }
+    ]
+  },
+  {
+    "UniqueId": "BLACK-CAPS",
+    "Title": "Black Caps",
+    "Subtitle": "https://en.wikipedia.org/wiki/New_Zealand_national_cricket_team",
+    "ImagePath": "https://pbs.twimg.com/profile_images/583360547258703872/GWHXQRAv.jpg",
+    "Description" : "The New Zealand cricket team, nicknamed the Black Caps, are the national cricket team representing New Zealand. They played their first Test in 1930 against England in Christchurch, New Zealand, becoming the fifth country to play Test cricket. It took the team until 1955–56 to win a Test, against the West Indies at Eden Park in Auckland. They played their first ODI in the 1972–73 season against Pakistan in Christchurch.\n\nThe current Test, One-day and Twenty20 captain is Brendon McCullum. McCullum replaced Ross Taylor who replaced Daniel Vettori after Vettori stepped down following the 2011 World Cup. Vettori had replaced New Zealand's most successful captain, Stephen Fleming, who led New Zealand to 28 Test victories, more than twice as many as any other New Zealand captain.\n\nThe national team is organised by New Zealand Cricket.The New Zealand cricket team became known as the Black Caps in January 1998, after its sponsor at the time, Clear Communications, held a competition to choose a name for the team. Official New Zealand Cricket sources typeset the nickname as BLACKCAPS. This is one of many national team nicknames related to the All Blacks. As of January 2015, New Zealand have played 399 Test matches, winning 80, losing 160 and drawing 159. As of 12 May 2015, the New Zealand cricket team is ranked third in Tests, third in ODIs and sixth in T20Is by the ICC. New Zealand reached the final match in the ICC Cricket World Cup for the first time in its history after beating South Africa in the semi-final in 2015.",
+    "Items":
+    [
+      {
+        "UniqueId": "Group-3-Item-1",
+        "Title": "Item Title: 1",
+        "Subtitle": "Item Subtitle: 1",
+        "ImagePath": "Assets/MediumGray.png",
+        "Description" : "Item Description: Pellentesque porta, mauris quis interdum vehicula, urna sapien ultrices velit, nec venenatis dui odio in augue. Cras posuere, enim a cursus convallis, neque turpis malesuada erat, ut adipiscing neque tortor ac erat.",
+        "Content" : ""
+      },
+      {
+        "UniqueId": "Group-3-Item-2",
+        "Title": "Item Title: 2",
+        "Subtitle": "Item Subtitle: 2",
+        "ImagePath": "Assets/MediumGray.png",
+        "Description" : "Item Description: Pellentesque porta, mauris quis interdum vehicula, urna sapien ultrices velit, nec venenatis dui odio in augue. Cras posuere, enim a cursus convallis, neque turpis malesuada erat, ut adipiscing neque tortor ac erat.",
+        "Content" : ""
+      }
+    ]
+  }
+]
+}

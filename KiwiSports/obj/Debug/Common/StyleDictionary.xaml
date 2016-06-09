@@ -1,0 +1,269 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--Ascent white color-->
+    <SolidColorBrush x:Key="WhiteAscent" Color="White" />
+    <!--Ascent blue color-->
+    <SolidColorBrush x:Key="BlueAscent">#1B7FDC</SolidColorBrush>
+    <!--Ascent blue color light version-->
+    <SolidColorBrush x:Key="BlueAscentLight">#2E9AFF</SolidColorBrush>
+    <!--Ascent gray color-->
+    <SolidColorBrush x:Key="GrayAscent">#5A5A5A</SolidColorBrush>
+    <!--Ascent gray color light version-->
+    <SolidColorBrush x:Key="GrayAscentLight">#EDF5FF</SolidColorBrush>
+
+    <!--Color theme blue-->
+        <Color x:Key="BluePrimary">#354A66</Color>
+        <Color x:Key="BlueSecondary">#84DCFF</Color>
+        <Color x:Key="BlueTertiary">#9A6CE8</Color>
+    <!--Color theme yellow-->
+        <Color x:Key="YellowPrimary">#FFFBC2</Color>
+        <Color x:Key="YellowSecondary">#FFDA50</Color>
+        <Color x:Key="YellowTertiary">#FF8E3E</Color>
+    <!--Font color dark gray-->
+        <Color x:Key="FontColorDark">#5A5A5A</Color>
+    <!--Font color dark gray-->
+        <Color x:Key="FontColorLight">#EDF5FF</Color>
+    
+    <!--App title-->
+        <Style x:Key="AppBackground" TargetType="Grid">
+            <Setter Property="Background" Value="{StaticResource WhiteAscent}"/>
+        </Style>
+    <!--App title-->
+        <Style x:Key="AppTitle" TargetType="TextBlock" BasedOn="{StaticResource BaseTextBlockStyle}">
+            <Setter Property="Foreground" Value="{StaticResource GrayAscent}"/>
+            <Setter Property="Text" Value="Kiwi Sports"/>
+            <Setter Property="FontSize" Value="62"/>
+            <Setter Property="Margin" Value="0,0,30,40"/>
+            <Setter Property="TextWrapping" Value="NoWrap"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+        </Style>
+    <!--Lost content-->
+    <Style x:Key="LostContent" TargetType="TextBlock" BasedOn="{StaticResource BodyTextBlockStyle}">
+        <Setter Property="Foreground" Value="{StaticResource GrayAscent}"/>
+        <Setter Property="FontSize" Value="62"/>
+        <!--<Setter Property="Margin" Value="30,5,150,40"/>-->
+        <Setter Property="TextWrapping" Value="wrap"/>
+        <Setter Property="LineHeight" Value="70"/>
+    </Style>
+    <!--App logo-->
+        <Style x:Key="AppLogo" TargetType="Image">
+            <Setter Property="Height" Value="100"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Source" Value="../Assets/KiwiSportsDarkLogo.png"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Opacity" Value="0.7"/>
+        </Style>
+    <!--large Caption-->
+    <Style x:Key="LargeCaptionText" TargetType="TextBlock" BasedOn="{StaticResource BaseTextBlockStyle}">
+        <Setter Property="Foreground" Value="{StaticResource BlueAscent}"/>
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="Margin" Value="15,15,15,15"/>
+        <Setter Property="TextWrapping" Value="NoWrap"/>
+        <Setter Property="VerticalAlignment" Value="Bottom"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Height" Value="40"/>
+    </Style>
+    <!--small Caption-->
+    <Style x:Key="SmallCaptionText" TargetType="TextBlock" BasedOn="{StaticResource BaseTextBlockStyle}">
+        <Setter Property="Foreground" Value="{StaticResource BlueAscent}"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Margin" Value="15,15,15,15"/>
+        <Setter Property="TextWrapping" Value="NoWrap"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Height" Value="40"/>
+    </Style>
+    <!--Caption background-->
+        <Style x:Key="CaptionBackground" TargetType="StackPanel">
+            <Setter Property="Background" Value="{StaticResource WhiteAscent}"/>
+            <Setter Property="Opacity" Value="0.9"/>
+            <Setter Property="MaxHeight" Value="50"/>
+        </Style>
+    <!--Caption background-->
+        <Style x:Key="TileBorder" TargetType="Border">
+            <Setter Property="BorderBrush" Value="{StaticResource WhiteAscent}"/>
+        </Style>
+    <!--News details title-->
+        <Style x:Key="NewsDetailTitle" TargetType="TextBlock" BasedOn="{StaticResource BaseTextBlockStyle}">
+            <Setter Property="Foreground" Value="{StaticResource GrayAscent}"/>
+            <Setter Property="FontSize" Value="32"/>
+            <Setter Property="Margin" Value="10,10,10,20"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="MaxWidth" Value="1000"/>
+            <!--<Setter Property="OpticalMarginAlignment" Value="TrimSideBearings"/>-->
+    </Style>
+    <!--News details parra-->
+        <Style x:Key="NewsDetailParragraph" TargetType="TextBlock" BasedOn="{StaticResource BaseTextBlockStyle}">
+            <Setter Property="Foreground" Value="{StaticResource GrayAscent}"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Margin" Value="10,10,10,10"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="MaxWidth" Value="1000"/>
+            <Setter Property="OpticalMarginAlignment" Value="TrimSideBearings"/>
+            <Setter Property="TextAlignment" Value="Justify"/>
+            <Setter Property="LineHeight" Value="25" />
+    </Style>
+    <!--News details image-->
+        <Style x:Key="NewsDetailsImage" TargetType="Image">
+            <Setter Property="Height" Value="320"/>
+            <Setter Property="Width" Value="320"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,10,20,20"></Setter>
+        </Style>
+    <!--Wiki details parra-->
+        <Style x:Key="WikiDetailsParragraph" TargetType="TextBlock" BasedOn="{StaticResource NewsDetailParragraph}">
+            <Setter Property="TextAlignment" Value="Justify"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="LineHeight" Value="24"/>
+            <Setter Property="MaxWidth" Value="1100"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="VerticalAlignment" Value="Top"/>
+    </Style>
+    <!--Wiki details image-->
+        <Style x:Key="WikiDetailsImage" TargetType="Image" BasedOn="{StaticResource NewsDetailsImage}">
+            <Setter Property="Height" Value="280"/>
+            <Setter Property="Width" Value="280"/>
+    </Style>
+    <!--Image details parra-->
+    <Style x:Key="ImageDetailsParragraph" TargetType="TextBlock" BasedOn="{StaticResource NewsDetailParragraph}">
+        <Setter Property="MaxWidth" Value="900"/>
+        <Setter Property="LineHeight" Value="24"/>
+    </Style>
+    <!--Image details image-->
+    <Style x:Key="ImageDetailsImage" TargetType="Image" BasedOn="{StaticResource NewsDetailsImage}">
+        <Setter Property="Height" Value="420"/>
+        <Setter Property="Width" Value="420"/>
+    </Style>
+    <!--video details image-->
+    <Style x:Key="VideoDetailsImage" TargetType="Image" BasedOn="{StaticResource NewsDetailsImage}">
+    </Style>
+    <!--video details title-->
+    <Style x:Key="VideoDetailsTitle" TargetType="TextBlock" BasedOn="{StaticResource NewsDetailTitle}">
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="MaxWidth" Value="800"/>
+        <Setter Property="LineHeight" Value="36"/>
+    </Style>
+    <!--video details parra-->
+    <Style x:Key="VideoDetailsParragraph" TargetType="TextBlock" BasedOn="{StaticResource NewsDetailParragraph}">
+        <Setter Property="MaxWidth" Value="800"/>
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="LineHeight" Value="24"/>
+    </Style>
+    <!--video details button-->
+    <Style x:Key="VideoDetailsButton" TargetType="HyperlinkButton" BasedOn="{StaticResource TextBlockButtonStyle}">
+        <Setter Property="Width" Value="150"/>
+    </Style>
+    <!--progress bar-->
+    <Style x:Key="pb" TargetType="ProgressBar">
+        <Setter Property="Foreground" Value="AntiqueWhite"></Setter>
+    </Style>
+    <!--App wide hyperlink button-->
+    <!--<SolidColorBrush x:Key="AHyperlinkButtonBackgroundThemeBrush" Color="Transparent" />
+    <SolidColorBrush x:Key="BHyperlinkButtonBorderThemeBrush" Color="Transparent" />
+    <SolidColorBrush x:Key="CHyperlinkDisabledThemeBrush" Color="#66000000" />
+    <SolidColorBrush x:Key="DHyperlinkForegroundThemeBrush" Color="#FF4F1ACB" />-->
+    <!--<SolidColorBrush x:Key="FHyperlinkPressedForegroundThemeBrush" Color="#1B7FDC" />-->
+    <Style x:Key="CommonHyperLink" TargetType="HyperlinkButton">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="{StaticResource BlueAscent}" />
+        <Setter Property="BorderBrush" Value="{StaticResource HyperlinkButtonBorderThemeBrush}" />
+        <Setter Property="BorderThickness" Value="{StaticResource HyperlinkButtonBorderThemeThickness}" />
+        <Setter Property="Padding" Value="12,8,12,8" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="FontFamily" Value="{StaticResource ContentControlThemeFontFamily}" />
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="FontSize" Value="{StaticResource ControlContentThemeFontSize}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="HyperlinkButton">
+                    <Grid>
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal" />
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                   Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource WhiteAscent}" />
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Border"
+                                                                   Storyboard.TargetProperty="Background">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource BlueAscentLight}" />
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                   Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource WhiteAscent}" />
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter"
+                                                                   Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource WhiteAscent}" />
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="FocusVisualWhite"
+                                                     Storyboard.TargetProperty="Opacity"
+                                                     To="1"
+                                                     Duration="0" />
+                                        <DoubleAnimation Storyboard.TargetName="FocusVisualBlack"
+                                                     Storyboard.TargetProperty="Opacity"
+                                                     To="1"
+                                                     Duration="0" />
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused" />
+                                <VisualState x:Name="PointerFocused" />
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <Border x:Name="Border"
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            Margin="3">
+                            <ContentPresenter x:Name="ContentPresenter"
+                                          Content="{TemplateBinding Content}"
+                                          ContentTransitions="{TemplateBinding ContentTransitions}"
+                                          ContentTemplate="{TemplateBinding ContentTemplate}"
+                                          Margin="{TemplateBinding Padding}"
+                                          HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                          VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                        </Border>
+                        <Rectangle x:Name="FocusVisualWhite"
+                               IsHitTestVisible="False"
+                               Stroke="{StaticResource FocusVisualWhiteStrokeThemeBrush}"
+                               StrokeEndLineCap="Square"
+                               StrokeDashArray="1,1"
+                               Opacity="0"
+                               StrokeDashOffset="1.5" />
+                        <Rectangle x:Name="FocusVisualBlack"
+                               IsHitTestVisible="False"
+                               Stroke="{StaticResource FocusVisualBlackStrokeThemeBrush}"
+                               StrokeEndLineCap="Square"
+                               StrokeDashArray="1,1"
+                               Opacity="0"
+                               StrokeDashOffset="0.5" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!---->
+</ResourceDictionary>

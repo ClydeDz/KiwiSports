@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="f:\application projects\applicationprojects\kiwisports\windows_store_app\kiwisports\kiwisports\obj\debug\intermediatexaml\kiwisports.exe" HashGuid="178ddcb5-3c17-104f-3129-ce082824f28e" />
+    <ReferenceAssembly PathName="f:\application projects\applicationprojects\kiwisports\windows_store_app\kiwisports\packages\microsoft.applicationinsights.1.0.0\lib\portable-win81+wpa81\microsoft.applicationinsights.dll" HashGuid="e45dab0f-2190-2cce-6391-85c4e409657c" />
+    <ReferenceAssembly PathName="f:\application projects\applicationprojects\kiwisports\windows_store_app\kiwisports\packages\microsoft.applicationinsights.windowsapps.1.0.0\lib\win81\microsoft.applicationinsights.extensibility.windows.dll" HashGuid="0cfd8f3d-feff-7167-8f6d-52f443177ca5" />
+    <ReferenceAssembly PathName="f:\application projects\applicationprojects\kiwisports\windows_store_app\kiwisports\packages\microsoft.applicationinsights.persistencechannel.1.0.0\lib\portable-win81+wpa81\microsoft.applicationinsights.persistencechannel.dll" HashGuid="36d4bf96-0e5e-56a9-1ee8-11c7d3fb4068" />
+    <ReferenceAssembly PathName="f:\application projects\applicationprojects\kiwisports\windows_store_app\kiwisports\packages\newtonsoft.json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\newtonsoft.json.dll" HashGuid="86223907-5808-be51-71b4-c872f8140e29" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

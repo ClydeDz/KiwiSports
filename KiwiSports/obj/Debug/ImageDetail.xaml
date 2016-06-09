@@ -1,0 +1,69 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="KiwiSports.ImageDetail"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KiwiSports"
+    xmlns:data="using:KiwiSports.Data"
+    xmlns:common="using:KiwiSports.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- Collection of items displayed by this page -->
+        <CollectionViewSource
+        x:Name="itemsViewSource"
+        Source="{Binding Items}"
+            d:Source="{Binding Groups, Source={d:DesignData Source=/DataModel/HomeTiles.json, Type=data:SampleDataSource}}"/>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Horizontal scrolling grid -->
+        <StackPanel VerticalAlignment="top" Grid.Row="1" Margin="116 20 100 20" Orientation="Horizontal">
+            <StackPanel Orientation="Vertical">
+                <Image x:Name="imageThumbnail" Style="{StaticResource ImageDetailsImage}"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <TextBlock x:Name="imageMeta" Text="" Style="{StaticResource ImageDetailsParragraph}"/>
+                <TextBlock x:Name="imageCaption" Text="" IsHitTestVisible="false" Style="{StaticResource ImageDetailsParragraph}" />
+                <HyperlinkButton x:Name="imageWebUrl" Style="{StaticResource CommonHyperLink}" Content="View image on the web" Margin="5 5 0 0"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="1346" IsIndeterminate="True"  RequestedTheme="Dark" Visibility="Collapsed" Grid.ColumnSpan="3"/>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text=""  Style="{StaticResource AppTitle}" Grid.Column="1" IsHitTestVisible="false"/>
+            <Image x:Name="kiwiSportsLogo" Grid.Column="2" Style="{StaticResource AppLogo}"/>
+        </Grid>
+    </Grid>
+</Page>
+

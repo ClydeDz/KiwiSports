@@ -1,0 +1,4 @@
+MainPackage=F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Release\KiwiSports_1.1.1.0_AnyCPU.appx
+SymbolPackage=F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\AppPackages\KiwiSports_1.1.1.0_Test\KiwiSports_1.1.1.0_AnyCPU.appxsym
+ResourcePack=F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Release\KiwiSports_1.1.1.0_scale-140.appx
+ResourcePack=F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Release\KiwiSports_1.1.1.0_scale-180.appx

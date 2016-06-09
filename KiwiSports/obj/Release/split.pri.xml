@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="25993ClydeDSouza.KiwiSports" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>80, 100</Scale>
+			<TargetSize>48, 32, 256, 16</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ApplicationInsights.config" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/ApplicationInsights.config">
+				<Candidate type="Path">
+					<Value>ApplicationInsights.config</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Categories.xbf" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Categories.xbf">
+				<Candidate type="Path">
+					<Value>Categories.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ImageDetail.xbf" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/ImageDetail.xbf">
+				<Candidate type="Path">
+					<Value>ImageDetail.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ImageMaster.xbf" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/ImageMaster.xbf">
+				<Candidate type="Path">
+					<Value>ImageMaster.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ItemsPage.xbf" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/ItemsPage.xbf">
+				<Candidate type="Path">
+					<Value>ItemsPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="KiwiSports.xr.xml" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/KiwiSports.xr.xml">
+				<Candidate type="Path">
+					<Value>KiwiSports.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="KiwiSportsSettingsFlyout.xbf" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/KiwiSportsSettingsFlyout.xbf">
+				<Candidate type="Path">
+					<Value>KiwiSportsSettingsFlyout.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Lost.xbf" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Lost.xbf">
+				<Candidate type="Path">
+					<Value>Lost.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NewsDetail.xbf" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/NewsDetail.xbf">
+				<Candidate type="Path">
+					<Value>NewsDetail.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NewsMaster.xbf" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/NewsMaster.xbf">
+				<Candidate type="Path">
+					<Value>NewsMaster.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="VideoDetail.xbf" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/VideoDetail.xbf">
+				<Candidate type="Path">
+					<Value>VideoDetail.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="VideoMaster.xbf" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/VideoMaster.xbf">
+				<Candidate type="Path">
+					<Value>VideoMaster.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Wiki.xbf" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Wiki.xbf">
+				<Candidate type="Path">
+					<Value>Wiki.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="AllBlacksLogo.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/AllBlacksLogo.jpg">
+					<Candidate type="Path">
+						<Value>Assets\AllBlacksLogo.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AllBlacksLogoSquare.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/AllBlacksLogoSquare.jpg">
+					<Candidate type="Path">
+						<Value>Assets\AllBlacksLogoSquare.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AllBlacksTile.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/AllBlacksTile.jpg">
+					<Candidate type="Path">
+						<Value>Assets\AllBlacksTile.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AppBackground.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/AppBackground.jpg">
+					<Candidate type="Path">
+						<Value>Assets\AppBackground.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Badge24x24.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Badge24x24.png">
+					<Candidate type="Path">
+						<Value>Assets\Badge24x24.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Badge33x33.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Badge33x33.png">
+					<Candidate type="Path">
+						<Value>Assets\Badge33x33.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Badge93x93.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Badge93x93.png">
+					<Candidate type="Path">
+						<Value>Assets\Badge93x93.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BlackCapsLogo.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/BlackCapsLogo.jpg">
+					<Candidate type="Path">
+						<Value>Assets\BlackCapsLogo.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BlackCapsLogoSquare.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/BlackCapsLogoSquare.jpg">
+					<Candidate type="Path">
+						<Value>Assets\BlackCapsLogoSquare.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BlackCapsTile.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/BlackCapsTile.jpg">
+					<Candidate type="Path">
+						<Value>Assets\BlackCapsTile.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Cricket1.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Cricket1.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Cricket1.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Cricket2.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Cricket2.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Cricket2.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Cricket3.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Cricket3.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Cricket3.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Cricket4.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Cricket4.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Cricket4.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Cricket5.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Cricket5.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Cricket5.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DarkGray.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/DarkGray.png">
+					<Candidate type="Path">
+						<Value>Assets\DarkGray.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="KiwiSportsDarkLogo.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/KiwiSportsDarkLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\KiwiSportsDarkLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="KiwiSportsWhiteLogo.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/KiwiSportsWhiteLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\KiwiSportsWhiteLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LightGray.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/LightGray.png">
+					<Candidate type="Path">
+						<Value>Assets\LightGray.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MediumGray.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/MediumGray.png">
+					<Candidate type="Path">
+						<Value>Assets\MediumGray.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Netball1.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Netball1.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Netball1.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Netball2.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Netball2.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Netball2.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Netball3.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Netball3.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Netball3.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Netball4.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Netball4.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Netball4.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Rugby1.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Rugby1.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Rugby1.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Rugby2.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Rugby2.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Rugby2.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Rugby3.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Rugby3.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Rugby3.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Rugby4.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Rugby4.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Rugby4.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Rugby5.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Rugby5.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Rugby5.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SilverFernsLogo.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/SilverFernsLogo.jpg">
+					<Candidate type="Path">
+						<Value>Assets\SilverFernsLogo.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SilverFernsLogoSquare.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/SilverFernsLogoSquare.jpg">
+					<Candidate type="Path">
+						<Value>Assets\SilverFernsLogoSquare.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SilverFernsTile.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/SilverFernsTile.jpg">
+					<Candidate type="Path">
+						<Value>Assets\SilverFernsTile.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Splash100.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Splash100.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Splash100.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Splash140.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Splash140.png">
+					<Candidate type="Path">
+						<Value>Assets\Splash140.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Splash180.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Splash180.png">
+					<Candidate type="Path">
+						<Value>Assets\Splash180.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square120x120.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Square120x120.png">
+					<Candidate type="Path">
+						<Value>Assets\Square120x120.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square126x126.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Square126x126.png">
+					<Candidate type="Path">
+						<Value>Assets\Square126x126.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square210x210.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Square210x210.png">
+					<Candidate type="Path">
+						<Value>Assets\Square210x210.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square270x270.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Square270x270.png">
+					<Candidate type="Path">
+						<Value>Assets\Square270x270.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square56x56.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Square56x56.png">
+					<Candidate type="Path">
+						<Value>Assets\Square56x56.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square98x98.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Square98x98.png">
+					<Candidate type="Path">
+						<Value>Assets\Square98x98.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Store150x150.jpg" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Store150x150.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Store150x150.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Store150x150.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Store150x150.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\Store150x150.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Store150x150.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Store248x248.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Store248x248.png">
+					<Candidate type="Path">
+						<Value>Assets\Store248x248.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Store30x30.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Store30x30.png">
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Store30x30.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\Store30x30.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\Store30x30.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Store30x30.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\Store30x30.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Store30x30.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Store310x310.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Store310x310.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\Store310x310.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Store310x310.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Store434x434.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Store434x434.png">
+					<Candidate type="Path">
+						<Value>Assets\Store434x434.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Store448x448.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Store448x448.png">
+					<Candidate type="Path">
+						<Value>Assets\Store448x448.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Store50.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Store50.png">
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Store50.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Store558x558.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Store558x558.png">
+					<Candidate type="Path">
+						<Value>Assets\Store558x558.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Store70.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Store70.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\Store70.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\Store70.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Store90.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Store90.png">
+					<Candidate type="Path">
+						<Value>Assets\Store90.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Target16x16.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Target16x16.png">
+					<Candidate type="Path">
+						<Value>Assets\Target16x16.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Target24x24.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Target24x24.png">
+					<Candidate type="Path">
+						<Value>Assets\Target24x24.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Target256x256.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Target256x256.png">
+					<Candidate type="Path">
+						<Value>Assets\Target256x256.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Target32x32.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Target32x32.png">
+					<Candidate type="Path">
+						<Value>Assets\Target32x32.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Target42x42.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Target42x42.png">
+					<Candidate type="Path">
+						<Value>Assets\Target42x42.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Target48x48.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Target48x48.png">
+					<Candidate type="Path">
+						<Value>Assets\Target48x48.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Target54x54.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Target54x54.png">
+					<Candidate type="Path">
+						<Value>Assets\Target54x54.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide248x120.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Wide248x120.png">
+					<Candidate type="Path">
+						<Value>Assets\Wide248x120.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide434x210.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Wide434x210.png">
+					<Candidate type="Path">
+						<Value>Assets\Wide434x210.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide558x270.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/Wide558x270.png">
+					<Candidate type="Path">
+						<Value>Assets\Wide558x270.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo310x150.png" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Assets/WideLogo310x150.png">
+					<Candidate qualifiers="Scale-80" isDefault="true" type="Path">
+						<Value>Assets\WideLogo310x150.scale-80.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\WideLogo310x150.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Common">
+				<NamedResource name="StyleDictionary.xbf" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/Common/StyleDictionary.xbf">
+					<Candidate type="Path">
+						<Value>Common\StyleDictionary.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DataModel">
+				<NamedResource name="KiwiSports.json" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/DataModel/KiwiSports.json">
+					<Candidate type="Path">
+						<Value>DataModel\KiwiSports.json</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SampleData.json" uri="ms-resource://25993ClydeDSouza.KiwiSports/Files/DataModel/SampleData.json">
+					<Candidate type="Path">
+						<Value>DataModel\SampleData.json</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

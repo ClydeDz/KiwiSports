@@ -1,0 +1,34 @@
+﻿<SettingsFlyout
+    x:Class="KiwiSports.KiwiSportsSettingsFlyout"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KiwiSports"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="About"
+    d:DesignWidth="346"
+    Background="White"
+    HeaderBackground="#1B7FDC">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+        <!-- Content Section 1-->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+            <Image Style="{StaticResource AppLogo}" HorizontalAlignment="Left"/>
+            <!-- Section 1 header -->
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Kiwi Sports" />
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Text="Version 1.0.1" />
+            <!-- Section 1 body -->
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,5" TextWrapping="Wrap" xml:space="preserve" TextAlignment="Justify">
+                <TextBlock.Text>
+Kiwi Sports is an app that brings your favourite New Zealand teams- the All Blacks, Silver Ferns and Black Caps, more closely to you.                
+
+With thanks to Json.NET by James Newton-King
+
+Love to hear from you!</TextBlock.Text>
+            </TextBlock>
+            <HyperlinkButton NavigateUri="https://docs.google.com/forms/d/1or9UDMovo4FOS0PK4579uDdm03yFMtQmiJoDNxt3FTY/viewform" Style="{StaticResource CommonHyperLink}" Content="Feedback"/>
+        </StackPanel>
+    </StackPanel>
+</SettingsFlyout>

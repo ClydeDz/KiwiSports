@@ -1,0 +1,13 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-140"
+"ResourceDimensions"		"scale-140"
+
+[Files]
+"F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\obj\Release\split.scale-140.pri"			"resources.pri"
+"F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\obj\Release\PackageLayout\Assets\WideLogo310x150.scale-140.png"			"Assets\WideLogo310x150.scale-140.png"
+"F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\obj\Release\PackageLayout\Assets\Store70.scale-140.png"			"Assets\Store70.scale-140.png"
+"F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\obj\Release\PackageLayout\Assets\Store50.scale-140.png"			"Assets\Store50.scale-140.png"
+"F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\obj\Release\PackageLayout\Assets\Store310x310.scale-140.png"			"Assets\Store310x310.scale-140.png"
+"F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\obj\Release\PackageLayout\Assets\Store30x30.scale-140.png"			"Assets\Store30x30.scale-140.png"
+"F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\obj\Release\PackageLayout\Assets\Store150x150.scale-140.png"			"Assets\Store150x150.scale-140.png"
+"F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\obj\Release\PackageLayout\Assets\Splash100.scale-140.png"			"Assets\Splash100.scale-140.png"

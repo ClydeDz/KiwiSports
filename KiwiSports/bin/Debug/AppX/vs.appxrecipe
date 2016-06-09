@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HP</Machine>
+    <WindowsUser>CLYDE DSOUZA</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9f50966c-bf47-44b1-ac07-8a91fcac4874</PackageIdentityName>
+    <IntermediateOutputPath>F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>347AC9E357F94DFEDB749A1B3D57D499EB04F3C62D0D7979DCBF39EB0B1A08B7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9f50966c-bf47-44b1-ac07-8a91fcac4874_1.0.1.0_neutral__b4sxzehhnwvc6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9f50966c-bf47-44b1-ac07-8a91fcac4874_b4sxzehhnwvc6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9f50966c-bf47-44b1-ac07-8a91fcac4874</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=CLYDE DSOUZA</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.1.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-26T03:30:04.361</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\KiwiSports.exe">
+      <PackagePath>KiwiSports.exe</PackagePath>
+      <Modified>2015-09-26T04:27:41.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\packages\Microsoft.ApplicationInsights.1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
+      <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
+      <Modified>2015-09-18T12:04:09.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\packages\Microsoft.ApplicationInsights.WindowsApps.1.0.0\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
+      <Modified>2015-09-18T12:04:11.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\packages\Microsoft.ApplicationInsights.PersistenceChannel.1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.PersistenceChannel.dll">
+      <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
+      <Modified>2015-09-18T12:04:10.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\packages\Newtonsoft.Json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-09-18T23:45:11.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+      <Modified>2015-09-18T12:04:50.773</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\AllBlacksLogo.jpg">
+      <PackagePath>Assets\AllBlacksLogo.jpg</PackagePath>
+      <Modified>2015-09-26T00:43:33.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\AllBlacksLogoSquare.jpg">
+      <PackagePath>Assets\AllBlacksLogoSquare.jpg</PackagePath>
+      <Modified>2015-09-18T13:07:21.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\AllBlacksTile.jpg">
+      <PackagePath>Assets\AllBlacksTile.jpg</PackagePath>
+      <Modified>2015-09-22T12:32:37.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\AppBackground.jpg">
+      <PackagePath>Assets\AppBackground.jpg</PackagePath>
+      <Modified>2015-09-21T11:03:49.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\BlackCapsLogo.jpg">
+      <PackagePath>Assets\BlackCapsLogo.jpg</PackagePath>
+      <Modified>2015-09-26T00:43:33.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\BlackCapsLogoSquare.jpg">
+      <PackagePath>Assets\BlackCapsLogoSquare.jpg</PackagePath>
+      <Modified>2015-09-18T13:07:21.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\BlackCapsTile.jpg">
+      <PackagePath>Assets\BlackCapsTile.jpg</PackagePath>
+      <Modified>2015-09-22T12:32:37.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Cricket1.jpg">
+      <PackagePath>Assets\Cricket1.jpg</PackagePath>
+      <Modified>2015-09-21T11:40:51.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Cricket2.jpg">
+      <PackagePath>Assets\Cricket2.jpg</PackagePath>
+      <Modified>2015-09-21T11:40:51.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Cricket3.jpg">
+      <PackagePath>Assets\Cricket3.jpg</PackagePath>
+      <Modified>2015-09-21T11:40:51.504</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Cricket4.jpg">
+      <PackagePath>Assets\Cricket4.jpg</PackagePath>
+      <Modified>2015-09-21T11:40:51.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Cricket5.jpg">
+      <PackagePath>Assets\Cricket5.jpg</PackagePath>
+      <Modified>2015-09-20T10:50:09.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Netball1.jpg">
+      <PackagePath>Assets\Netball1.jpg</PackagePath>
+      <Modified>2015-09-21T11:40:51.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Netball2.jpg">
+      <PackagePath>Assets\Netball2.jpg</PackagePath>
+      <Modified>2015-09-21T11:40:51.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Netball3.jpg">
+      <PackagePath>Assets\Netball3.jpg</PackagePath>
+      <Modified>2015-09-21T11:40:51.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Netball4.jpg">
+      <PackagePath>Assets\Netball4.jpg</PackagePath>
+      <Modified>2015-09-21T11:40:51.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Rugby1.jpg">
+      <PackagePath>Assets\Rugby1.jpg</PackagePath>
+      <Modified>2015-09-21T11:40:51.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Rugby2.jpg">
+      <PackagePath>Assets\Rugby2.jpg</PackagePath>
+      <Modified>2015-09-21T11:40:51.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Rugby3.jpg">
+      <PackagePath>Assets\Rugby3.jpg</PackagePath>
+      <Modified>2015-09-21T11:40:51.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Rugby4.jpg">
+      <PackagePath>Assets\Rugby4.jpg</PackagePath>
+      <Modified>2015-09-21T11:40:51.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Rugby5.jpg">
+      <PackagePath>Assets\Rugby5.jpg</PackagePath>
+      <Modified>2015-09-21T11:40:51.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\SilverFernsLogo.jpg">
+      <PackagePath>Assets\SilverFernsLogo.jpg</PackagePath>
+      <Modified>2015-09-26T00:43:33.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\SilverFernsLogoSquare.jpg">
+      <PackagePath>Assets\SilverFernsLogoSquare.jpg</PackagePath>
+      <Modified>2015-09-18T13:07:21.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\SilverFernsTile.jpg">
+      <PackagePath>Assets\SilverFernsTile.jpg</PackagePath>
+      <Modified>2015-09-22T12:32:37.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store150x150.jpg">
+      <PackagePath>Assets\Store150x150.jpg</PackagePath>
+      <Modified>2015-09-20T10:50:09.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Badge24x24.png">
+      <PackagePath>Assets\Badge24x24.png</PackagePath>
+      <Modified>2015-09-21T12:05:57.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Badge33x33.png">
+      <PackagePath>Assets\Badge33x33.png</PackagePath>
+      <Modified>2015-09-21T12:05:57.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Badge93x93.png">
+      <PackagePath>Assets\Badge93x93.png</PackagePath>
+      <Modified>2015-09-21T12:05:57.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\KiwiSportsDarkLogo.png">
+      <PackagePath>Assets\KiwiSportsDarkLogo.png</PackagePath>
+      <Modified>2015-09-21T12:10:15.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\KiwiSportsWhiteLogo.png">
+      <PackagePath>Assets\KiwiSportsWhiteLogo.png</PackagePath>
+      <Modified>2015-09-19T11:50:50.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Splash100.scale-100.png">
+      <PackagePath>Assets\Splash100.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T11:57:41.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Splash100.scale-140.png">
+      <PackagePath>Assets\Splash100.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T11:59:11.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Splash100.scale-180.png">
+      <PackagePath>Assets\Splash100.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T11:59:11.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Splash140.png">
+      <PackagePath>Assets\Splash140.png</PackagePath>
+      <Modified>2015-09-21T11:59:11.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Splash180.png">
+      <PackagePath>Assets\Splash180.png</PackagePath>
+      <Modified>2015-09-21T11:59:11.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Square120x120.png">
+      <PackagePath>Assets\Square120x120.png</PackagePath>
+      <Modified>2015-09-21T12:31:01.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Square126x126.png">
+      <PackagePath>Assets\Square126x126.png</PackagePath>
+      <Modified>2015-09-21T12:36:17.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Square210x210.png">
+      <PackagePath>Assets\Square210x210.png</PackagePath>
+      <Modified>2015-09-21T12:31:01.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Square270x270.png">
+      <PackagePath>Assets\Square270x270.png</PackagePath>
+      <Modified>2015-09-21T12:31:01.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Square56x56.png">
+      <PackagePath>Assets\Square56x56.png</PackagePath>
+      <Modified>2015-09-21T12:36:17.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Square98x98.png">
+      <PackagePath>Assets\Square98x98.png</PackagePath>
+      <Modified>2015-09-21T12:36:17.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store150x150.scale-100.png">
+      <PackagePath>Assets\Store150x150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T12:01:56.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store150x150.scale-140.png">
+      <PackagePath>Assets\Store150x150.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T12:31:01.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store150x150.scale-180.png">
+      <PackagePath>Assets\Store150x150.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T12:31:01.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store150x150.scale-80.png">
+      <PackagePath>Assets\Store150x150.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T12:31:01.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store248x248.png">
+      <PackagePath>Assets\Store248x248.png</PackagePath>
+      <Modified>2015-09-21T12:21:27.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.scale-100.png">
+      <PackagePath>Assets\Store30x30.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T12:03:00.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.scale-140.png">
+      <PackagePath>Assets\Store30x30.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-26T00:35:02.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.scale-180.png">
+      <PackagePath>Assets\Store30x30.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-26T00:35:02.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.scale-80.png">
+      <PackagePath>Assets\Store30x30.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-26T00:35:02.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.targetsize-16.png">
+      <PackagePath>Assets\Store30x30.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-26T00:35:02.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.targetsize-256.png">
+      <PackagePath>Assets\Store30x30.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-26T00:35:02.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.targetsize-32.png">
+      <PackagePath>Assets\Store30x30.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-26T00:35:02.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store30x30.targetsize-48.png">
+      <PackagePath>Assets\Store30x30.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-26T00:35:02.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store310x310.scale-100.png">
+      <PackagePath>Assets\Store310x310.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T12:01:40.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store310x310.scale-140.png">
+      <PackagePath>Assets\Store310x310.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T12:24:13.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store310x310.scale-180.png">
+      <PackagePath>Assets\Store310x310.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T12:21:27.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store310x310.scale-80.png">
+      <PackagePath>Assets\Store310x310.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T12:21:27.815</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store434x434.png">
+      <PackagePath>Assets\Store434x434.png</PackagePath>
+      <Modified>2015-09-21T12:24:13.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store448x448.png">
+      <PackagePath>Assets\Store448x448.png</PackagePath>
+      <Modified>2015-09-21T12:21:27.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store50.scale-100.png">
+      <PackagePath>Assets\Store50.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T12:02:46.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store50.scale-140.png">
+      <PackagePath>Assets\Store50.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T12:02:33.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store50.scale-180.png">
+      <PackagePath>Assets\Store50.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T12:02:19.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store558x558.png">
+      <PackagePath>Assets\Store558x558.png</PackagePath>
+      <Modified>2015-09-21T12:21:27.820</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store70.scale-100.png">
+      <PackagePath>Assets\Store70.scale-100.png</PackagePath>
+      <Modified>2015-09-21T12:02:33.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store70.scale-140.png">
+      <PackagePath>Assets\Store70.scale-140.png</PackagePath>
+      <Modified>2015-09-21T12:36:17.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store70.scale-180.png">
+      <PackagePath>Assets\Store70.scale-180.png</PackagePath>
+      <Modified>2015-09-21T12:36:17.634</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store70.scale-80.png">
+      <PackagePath>Assets\Store70.scale-80.png</PackagePath>
+      <Modified>2015-09-21T12:36:17.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Store90.png">
+      <PackagePath>Assets\Store90.png</PackagePath>
+      <Modified>2015-09-21T12:03:51.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target16x16.png">
+      <PackagePath>Assets\Target16x16.png</PackagePath>
+      <Modified>2015-09-26T00:35:02.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target24x24.png">
+      <PackagePath>Assets\Target24x24.png</PackagePath>
+      <Modified>2015-09-26T00:35:02.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target256x256.png">
+      <PackagePath>Assets\Target256x256.png</PackagePath>
+      <Modified>2015-09-26T00:35:02.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target32x32.png">
+      <PackagePath>Assets\Target32x32.png</PackagePath>
+      <Modified>2015-09-26T00:35:02.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target42x42.png">
+      <PackagePath>Assets\Target42x42.png</PackagePath>
+      <Modified>2015-09-26T00:35:02.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target48x48.png">
+      <PackagePath>Assets\Target48x48.png</PackagePath>
+      <Modified>2015-09-26T00:35:02.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Target54x54.png">
+      <PackagePath>Assets\Target54x54.png</PackagePath>
+      <Modified>2015-09-26T00:35:02.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Wide248x120.png">
+      <PackagePath>Assets\Wide248x120.png</PackagePath>
+      <Modified>2015-09-26T00:35:02.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Wide434x210.png">
+      <PackagePath>Assets\Wide434x210.png</PackagePath>
+      <Modified>2015-09-26T00:35:02.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Wide558x270.png">
+      <PackagePath>Assets\Wide558x270.png</PackagePath>
+      <Modified>2015-09-26T00:35:02.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\WideLogo310x150.scale-100.png">
+      <PackagePath>Assets\WideLogo310x150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-21T12:01:27.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\WideLogo310x150.scale-140.png">
+      <PackagePath>Assets\WideLogo310x150.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-26T00:35:02.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\WideLogo310x150.scale-180.png">
+      <PackagePath>Assets\WideLogo310x150.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-26T00:35:02.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\WideLogo310x150.scale-80.png">
+      <PackagePath>Assets\WideLogo310x150.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-26T00:35:02.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2015-07-06T10:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2015-07-06T10:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2015-07-06T10:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2015-07-06T10:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2015-07-06T10:05:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\DataModel\KiwiSports.json">
+      <PackagePath>DataModel\KiwiSports.json</PackagePath>
+      <Modified>2015-09-26T00:20:13.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2015-09-18T12:03:57.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\KiwiSports.xr.xml">
+      <PackagePath>KiwiSports.xr.xml</PackagePath>
+      <Modified>2015-09-26T03:48:54.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-09-22T12:37:05.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\Categories.xbf">
+      <PackagePath>Categories.xbf</PackagePath>
+      <Modified>2015-09-26T00:09:22.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\Common\StyleDictionary.xbf">
+      <PackagePath>Common\StyleDictionary.xbf</PackagePath>
+      <Modified>2015-09-26T03:49:08.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\ImageDetail.xbf">
+      <PackagePath>ImageDetail.xbf</PackagePath>
+      <Modified>2015-09-25T10:48:19.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\ImageMaster.xbf">
+      <PackagePath>ImageMaster.xbf</PackagePath>
+      <Modified>2015-09-25T10:48:19.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\ItemsPage.xbf">
+      <PackagePath>ItemsPage.xbf</PackagePath>
+      <Modified>2015-09-26T03:48:54.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\KiwiSportsSettingsFlyout.xbf">
+      <PackagePath>KiwiSportsSettingsFlyout.xbf</PackagePath>
+      <Modified>2015-09-26T03:30:02.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\Lost.xbf">
+      <PackagePath>Lost.xbf</PackagePath>
+      <Modified>2015-09-26T03:37:00.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\NewsDetail.xbf">
+      <PackagePath>NewsDetail.xbf</PackagePath>
+      <Modified>2015-09-25T10:48:19.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\NewsMaster.xbf">
+      <PackagePath>NewsMaster.xbf</PackagePath>
+      <Modified>2015-09-25T11:33:57.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\VideoDetail.xbf">
+      <PackagePath>VideoDetail.xbf</PackagePath>
+      <Modified>2015-09-25T10:48:19.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\VideoMaster.xbf">
+      <PackagePath>VideoMaster.xbf</PackagePath>
+      <Modified>2015-09-25T08:17:20.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\Wiki.xbf">
+      <PackagePath>Wiki.xbf</PackagePath>
+      <Modified>2015-09-25T08:17:20.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Application Projects\ApplicationProjects\KiwiSports\Windows_Store_App\KiwiSports\KiwiSports\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-09-26T03:30:03.709</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

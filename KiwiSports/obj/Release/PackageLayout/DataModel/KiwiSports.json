@@ -1,0 +1,121 @@
+{"Groups":[
+  {
+    "UniqueId": "ALL-BLACKS",
+    "Title": "All Blacks",
+    "Subtitle": "Group subtitle: 1",
+    "ImagePath": "Assets/AllBlacksLogo.jpg",
+    "Description" : "",
+    "Items":
+    [
+      {
+        "UniqueId": "AB-NEWS",
+        "Title": "News",
+        "Subtitle": "Get the most interesting news about All Blacks",
+        "ImagePath": "Assets/Rugby1.jpg",
+        "Description" : "",
+        "Content" : ""
+      },
+      {
+        "UniqueId": "AB-PHOTOS",
+        "Title": "Photos",
+        "Subtitle": "Never miss any moment of All Blacks",
+        "ImagePath": "Assets/Rugby2.jpg",
+        "Description" : "",
+        "Content" : ""
+      },
+      {
+        "UniqueId": "AB-VIDEOS",
+        "Title": "Videos",
+        "Subtitle": "Go beyond pictures. Live every moment with All Blacks",
+        "ImagePath": "Assets/Rugby3.jpg",
+        "Description" : "",
+        "Content" : ""
+      },
+      {
+        "UniqueId": "AB-WIKI",
+        "Title": "About All Blacks",
+        "Subtitle": "See what your All Blacks have to share with you",
+        "ImagePath": "Assets/Rugby4.jpg",
+        "Description" : "",
+        "Content" : ""
+      }
+    ]
+  },
+  {
+    "UniqueId": "SILVER-FERNS",
+    "Title": "Silver Ferns",
+    "Subtitle": "Group subtitle: 2",
+    "ImagePath": "Assets/SilverFernsLogo.jpg",
+    "Description" : "",
+    "Items":
+    [      
+      {
+        "UniqueId": "SF-PHOTOS",
+        "Title": "Photos",
+        "Subtitle": "Never miss any moment of Silver Ferns",
+        "ImagePath": "Assets/Netball1.jpg",
+        "Description" : "",
+        "Content" : ""
+      },
+      {
+        "UniqueId": "SF-VIDEOS",
+        "Title": "Videos",
+        "Subtitle": "Go beyond pictures. Live every moment with Silver Ferns",
+        "ImagePath": "Assets/Netball2.jpg",
+        "Description" : "",
+        "Content" : ""
+      },
+      {
+        "UniqueId": "SF-WIKI",
+        "Title": "About Silver Ferns",
+        "Subtitle": "See what your Silver Ferns have to share with you",
+        "ImagePath": "Assets/Netball3.jpg",
+        "Description" : "",
+        "Content" : ""
+      }
+    ]
+  },
+  {
+    "UniqueId": "BLACK-CAPS",
+    "Title": "Black Caps",
+    "Subtitle": "Group subtitle: 3",
+    "ImagePath": "Assets/BlackCapsLogo.jpg",
+    "Description" : "",
+    "Items":
+    [
+      {
+        "UniqueId": "BC-NEWS",
+        "Title": "News",
+        "Subtitle": "Get the most interesting news about Black Caps",
+        "ImagePath": "Assets/Cricket2.jpg",
+        "Description": "",
+        "Content": ""
+      },
+      {
+        "UniqueId": "BC-PHOTOS",
+        "Title": "Photos",
+        "Subtitle": "Never miss any moment of Black Caps",
+        "ImagePath": "Assets/Cricket1.jpg",
+        "Description": "",
+        "Content": ""
+      },
+      {
+        "UniqueId": "BC-VIDEOS",
+        "Title": "Videos",
+        "Subtitle": "Go beyond pictures. Live every moment with Black Caps",
+        "ImagePath": "Assets/Cricket3.jpg",
+        "Description" : "",
+        "Content" : ""
+      },
+      {
+        "UniqueId": "BC-WIKI",
+        "Title": "About Black Caps",
+        "Subtitle": "See what your Black Caps have to share with you",
+        "ImagePath": "Assets/Cricket4.jpg",
+        "Description" : "",
+        "Content" : ""
+      }
+    ]
+  }
+]
+}
